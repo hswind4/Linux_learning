@@ -1,6 +1,6 @@
-probar:probar.c
-	rm -rf proba
-	gcc probar.c -o probar 
-.PHONY:clean
+probar.out:probar.c
+	rm -rf probar.out
+	gcc probar.c -o probar.out 
+.PHONY:clean	
 clean:
-	rm -rf probar
+	rm -rf probar.out
